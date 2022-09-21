@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="App">
-            <div className="adviceNum">Advice #{adviceNum}</div>
+            <div className="adviceNum">ADVICE #{adviceNum}</div>
             <div className="adviceStr">"{adviceStr}"</div>
             <img src={divider} alt="divider" />
             <button className="adviceButton" onClick={fetchData}>
